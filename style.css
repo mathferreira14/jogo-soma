@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#score {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilos responsivos para dispositivos móveis */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+
+/* Adicione estilos para os emojis */
+.hand-emoji {
+    font-size: 24px;
+}
+
+/* Adicione estilos para os emojis */
+.finger {
+    font-size: 24px;
+}
